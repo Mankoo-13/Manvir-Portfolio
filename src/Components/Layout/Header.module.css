@@ -1,0 +1,49 @@
+.Navbar {
+    color: #61892f;
+
+}
+
+.heading {
+    font-size: 2rem;
+    margin: 1rem 0 0 1rem;
+    color: #86C232;
+    font-family: "Inter", sans-serif;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul li {
+    list-style: none;
+    margin: -5rem 0px 0px 0px
+}
+
+ul li a {
+    color: #86C232;
+    position: sticky;
+    top: 20%;
+    text-decoration: none;
+    margin: -2rem 3rem 0 2px;
+    font-weight: bolder;
+
+}
+
+ul li :hover {
+    color: #b8db87;
+}
+
+
+
+.homebtn {}
+
+.homebtn:active {}
+
+.projectsbtn :active {}
+
+.expbtn :active {}
+
+
+.aboutbtn :active {}
