@@ -73,10 +73,10 @@ p {
 }
 
 .btntalk {
-    margin: 2rem 0rem 1rem 10rem;
     border-radius: 8px;
     height: 2rem;
-    width: 5rem;
+    max-width: 80%;
+    margin: 1rem 0 1rem 9.5rem;
     background-color: #86c232;
     color: black;
     font-weight: bolder;
@@ -152,17 +152,10 @@ p {
     font-family: "Karla", sans-serif;
 }
 
-.insta {
-    margin: -55px 10px 50px 24rem;
+.insta, .twitter, .facebook {
+       margin: 0.5rem;
+    position: relative;
+    left: 10vw;
     font-size: 1.5rem;
 }
 
-.twitter {
-    margin: -55px 10px 50px 0.5rem;
-    font-size: 1.5rem;
-}
-
-.facebook {
-    margin: -55px 10px 50px 0.5rem;
-    font-size: 1.5rem;
-}

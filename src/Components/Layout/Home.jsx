@@ -50,7 +50,7 @@ function Home() {
 
        <div className={classes.info}><h3>Hello, I am</h3>
           <h1 className={classes.myname}>Manvir Mankoo</h1>
-          <h3 className={classes.expertise}>Full Stack Web Developer</h3></div>
+          <h3 className={classes.expertise}>React and Ui developer</h3></div>
         <p>Compitent, accomplished and best in my work.<br></br>Contact me to get your work done and to get my expertise.</p>
         <button className={classes.btntalk}>Let's talk</button>
         <h3 className={classes.shandles}>Check out my social handles</h3><SiInstagram className={classes.insta} /> <FiTwitter className={classes.twitter} /><FaFacebookMessenger className={classes.facebook} />

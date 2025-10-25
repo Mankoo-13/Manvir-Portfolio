@@ -19,6 +19,8 @@
    font-size: 36px;
   font-family: "Jura", sans-serif;
   animation: movein 1s ease-in infinite alternate;
+   text-align: center; /* center heading for mobile */
+
     
 }
 @keyframes movein {
@@ -76,3 +78,32 @@ height: 144px;
   margin-left: 15.5rem;
 }
 
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+   .container {
+      flex-direction: column;
+      margin: 2rem 1rem;
+   }
+   .left1, .right1 {
+      margin: 1rem 0;
+   }
+   .btn1 {
+      width: 100%;
+      max-width: 300px;
+   }
+   .heading1 {
+      font-size: 1.8rem;
+   }
+}
+
+@media (max-width: 480px) {
+   .heading1 {
+      font-size: 1.5rem;
+   }
+   .name, .phone, .email, .message {
+      max-width: 100%;
+   }
+   .btn1 {
+      max-width: 100%;
+   }
+}
