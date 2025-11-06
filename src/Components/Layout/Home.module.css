@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Julius+Sans+One&family=Junge&family=Jura:wght@300..700&family=Ledger&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     /* overflow-x: hidden; */
 }
 
@@ -68,7 +69,7 @@
 
 p {
     margin: 2px 9.5rem;
-    ;
+    font-size: clamp(1rem, 0.75rem, 3rem);
     font-family: "Inter", sans-serif;
 }
 
@@ -152,10 +153,89 @@ p {
     font-family: "Karla", sans-serif;
 }
 
-.insta, .twitter, .facebook {
-       margin: 0.5rem;
+.insta,
+.twitter,
+.facebook {
+    margin: 0.5rem;
     position: relative;
     left: 10vw;
     font-size: 1.5rem;
 }
 
+@media screen and (max-width:430px) {
+    .heading {}
+
+    .info {
+        font-size: 1.5rem;
+        margin: 0rem 0 4vh 10vw;
+        text-align: center;
+    }
+
+    .myname {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .expertise {
+        font-size: 1.5rem;
+    }
+
+    p {
+        width: 50vw;
+        margin: 1rem 1rem 1rem 25vw;
+    }
+
+    .btntalk {
+        margin: 1rem 1rem 1rem 39vw;
+    }
+
+    .shandles {
+        margin: 6vh 0 1rem 22vw;
+    }
+
+    .sidebg {
+        display: none;
+
+    }
+
+    .service {
+        margin: 1rem 0rem 1rem 30vw;
+    }
+
+    .wid {
+        margin: 1rem 0rem 1rem 25vw;
+
+    }
+
+    .list {}
+
+    .onlylist {
+        height: 35vh;
+        width: 70vw;
+        margin: 0rem 1rem 1rem 1rem;
+        padding: 2vh 2vw;
+    }
+
+    .titlehead {
+        font-size: 1.5rem;
+        margin-left: 5.5rem;
+    }
+
+    .icon {
+        font-size: 5rem;
+    }
+
+    .details {
+        font-size: 0.90rem;
+        margin: 10px 0 1rem 0.85vw;
+    }
+
+    .insta,
+    .twitter,
+    .facebook {
+          position: relative;
+        left: 30vw;
+        margin-top: 5vh;
+    }
+
+}

@@ -5,3 +5,9 @@
     margin-top: 6rem;
       font-family: "Jura", sans-serif;
     }
+
+    @media  screen and (max-width:420px) {
+      .footer{
+        margin-top: -1vh;
+      }
+    }

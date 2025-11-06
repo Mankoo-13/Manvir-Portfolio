@@ -23,7 +23,12 @@ function Projects() {
                                           Implemented global state management using useContext, useReducer, and Redux hooks. <br></br>
                                           Designed a responsive and modern UI with Tailwind CSS for a seamless user experience
         </p>
-        <p  className={classes.github1}>Github Link:-</p>
+        <p  className={classes.github1}>Github Link:- <a
+                                        href="https://accuweather.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer">Click here for live project demo</a>
+
+        </p>
       </div>
 
     </div>
@@ -64,7 +69,13 @@ function Projects() {
                                             was of the app to fetch the air quality, 
                                             temperature and wind details of the any city in the world just by entering name there.
         </p>
-        <p  className={classes.github1}>Github Link:-</p>
+        <p  className={classes.github1}>Github Link:- <a
+                                        href="https://accuweather.vercel.app/"
+                                        target="_blank"
+                                        rel="noopener noreferrer">Click here for live project demo</a>
+
+        </p>
+
       </div>
 
 

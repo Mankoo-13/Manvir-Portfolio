@@ -10,7 +10,7 @@
     font-family: "Inter", sans-serif;
 }
 
-ul {
+.menuitems {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -35,15 +35,51 @@ ul li :hover {
     color: #b8db87;
 }
 
+.trigger_menu {
+    display: none;
+}
+
+@media screen and (max-width:430px) {
+    .Navbar {}
+
+    .heading {
+        text-align: center;
+    }
+
+    .homebtn {}
+
+    .projectsbtn {}
+
+    .contactbtn {}
+
+    .menuitems {
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .is_open {
+        display: block;
+        margin: 11rem 1rem 0.25rem 16rem;
+        animation: slidingin ease-in-out 0.5s alternate 1;
+    }
+
+    .trigger_menu {
+        display: block;
+        position: absolute;
+        margin: -2.75rem 1rem 0.25rem 20rem;
+        color: #92EB15;
+        font-size: 1.5rem;
+    }
+
+    @keyframes slidingin {
+        from {
+            transform: translateX(100px)
+        }
 
 
-.homebtn {}
-
-.homebtn:active {}
-
-.projectsbtn :active {}
-
-.expbtn :active {}
-
-
-.aboutbtn :active {}
+        to {
+            transform: translateX(200px, 20px)
+        }
+    }
+}
