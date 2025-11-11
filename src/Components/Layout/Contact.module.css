@@ -1,109 +1,129 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Julius+Sans+One&family=Junge&family=Jura:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Ledger&family=Paytone+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.img1{
+.img1 {
    margin-left: 2rem
 }
-.container{
- display: flex;
+
+.container {
+   display: flex;
 
 }
-.left1{
- margin: 6rem 2rem 1rem 350px;
+
+.left1 {
+   margin: 6rem 2rem 1rem 350px;
 
 }
-.right1{
+
+.right1 {
    margin: 6rem 0rem 2rem 2rem;
 
 }
-.heading1{
-   font-size: 36px;
-  font-family: "Jura", sans-serif;
-  animation: movein 1s ease-in infinite alternate;
-   text-align: center; /* center heading for mobile */
 
-    
+.heading1 {
+   font-size: 36px;
+   font-family: "Jura", sans-serif;
+   animation: movein 1s ease-in infinite alternate;
+   text-align: center;
+   /* center heading for mobile */
+
+
 }
+
 @keyframes movein {
-    from {
+   from {
       transform: translateY(-40px);
-    }
-    to{
+   }
+
+   to {
       transform: translateY(0px);
-    }
+   }
 }
-.name{
+
+.name {
    height: 23px;
-  width: 311px;
-  border-radius: 12px;
-  color:black;
-  background-color: #D9D9D9;
-  border: none;
-  margin: 1rem 0rem 1rem 0rem;
+   width: 311px;
+   border-radius: 12px;
+   color: black;
+   background-color: #D9D9D9;
+   border: none;
+   margin: 1rem 0rem 1rem 0rem;
 }
-.phone{
- height: 23px;
-  width: 150px;
-  border-radius: 12px;
-  color:black;
-  border: none;
-  background-color: #D9D9D9;
-  margin: 0rem 0.5rem 1rem 0rem;
+
+.phone {
+   height: 23px;
+   width: 150px;
+   border-radius: 12px;
+   color: black;
+   border: none;
+   background-color: #D9D9D9;
+   margin: 0rem 0.5rem 1rem 0rem;
 }
-.email{
-  height: 23px;
-  width: 145px;
-  border-radius: 12px;
-  border:none;
-  color:black;
-  background-color: #D9D9D9;
-  margin: 0rem 0.5rem 1rem 0rem;
+
+.email {
+   height: 23px;
+   width: 145px;
+   border-radius: 12px;
+   border: none;
+   color: black;
+   background-color: #D9D9D9;
+   margin: 0rem 0.5rem 1rem 0rem;
 }
-.message{
-height: 144px;
-  width: 310px;
-  border: none;
-  border-radius: 12px;
-  color:black;
-  background-color: #D9D9D9;
-  margin: 0rem 0.5rem 1rem 0rem;
+
+.message {
+   height: 144px;
+   width: 310px;
+   border: none;
+   border-radius: 12px;
+   color: black;
+   background-color: #D9D9D9;
+   margin: 0rem 0.5rem 1rem 0rem;
 }
-.btn1{
+
+.btn1 {
    height: 27px;
-  padding: 1px 7px;
-  width: 60px;
-  border-radius: 7px;
-  border:none;
-  background-color: #D9D9D9;
-  color: black;
-  margin-left: 15.5rem;
+   padding: 1px 7px;
+   width: 60px;
+   border-radius: 7px;
+   border: none;
+   background-color: #D9D9D9;
+   color: black;
+   margin-left: 15.5rem;
 }
 
 /* Media Queries for Mobile Devices */
-@media (max-width: 768px) {
-   .container {
-      flex-direction: column;
-      margin: 2rem 1rem;
-   }
-   .left1, .right1 {
-      margin: 1rem 0;
-   }
-   .btn1 {
-      width: 100%;
-      max-width: 300px;
-   }
-   .heading1 {
-      font-size: 1.8rem;
-   }
-}
-
 @media (max-width: 480px) {
+   .img1 {
+      display: none;
+   }
+
+   .container {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .left1  {
+
+   }
+   .img2{
+            width:	80vw;
+      object-fit: cover;
+      height: auto;
+      margin: 2vh 1vw 2vh -84vw;
+   }
+
+   .right1 {}
+
+   .btn1 {}
+
    .heading1 {
-      font-size: 1.5rem;
+      margin: -2vh 0vh 1vh auto;
    }
-   .name, .phone, .email, .message {
-      max-width: 100%;
-   }
-   .btn1 {
-      max-width: 100%;
-   }
+
+   .name,
+   .phone,
+   .email {}
+
+   .message {}
+
+   .btn1 {}
 }

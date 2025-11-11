@@ -1,28 +1,37 @@
 .wrapper1 {
     display: flex;
-    gap: 8rem
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8rem;
+    margin-top: 3rem;
 }
 
+/* Image styling */
+.img1 {
+    width: 370px;
+    border-radius: 20px;
+    margin-left: 140px;
+}
 
+/* Right section (About Project) */
+.rights1 {
+    margin-top: 2rem;
+    max-width: 500px;
+}
 
+/* Headings */
 .heading1 {
     position: relative;
     left: 100%;
-    font-size: 2.15rem;
-    font-family: "Kanit", sans-serif;
+    background-color: #92EB15;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 5px;
 }
 
 .heading2 {
     font-family: "Kanit", sans-serif;
-    margin: 4rem 0rem 10px 170px;
-}
-
-.img1 {
-    margin-left: 140px;
-}
-
-.rights1 {
-    margin-top: 15rem
+    margin: 4rem 0rem 10px 5vw;
 }
 
 .abtproject1 {
@@ -30,45 +39,52 @@
     color: #92EB15;
 }
 
-
+.descript1 {
+     width: 100%;
+    margin: 1vh auto;
+}
 
 .github1 {
-    color: #92EB15;
-    margin-top: 2rem;
+        color: #92EB15;
+    margin: 2rem 1rem 1rem 5rem;
     font-weight: bolder;
 }
 
+/* ✅ Responsive for mobile view */
+@media screen and (max-width: 768px) {
+    .wrapper1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
 
-.wrapper2{
-    display: flex;
-    gap: 8rem
+    .heading1 {
+        left: 0;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .img1 {
+        margin-left: 0;
+        width: 85%;
+    }
+
+    .rights1 {
+        margin-top: 1rem;
+        max-width: 90%;
+    }
+
+    .abtproject1 {
+        margin: 1rem 0;
+    }
+
+    .descript1 {
+         margin: 1vh 1vw 1vh 3vw;
+    }
+
+    .github1 {
+        margin-top: 1rem;
+    }
 }
-
-
-
-.heading2 {
-    font-family: "Kanit", sans-serif;
-    margin: 4rem 0rem 10px 170px;
-}
-
-.img2 {
-    margin-left: 140px;
-}
-
-.rights2 {
-    margin-top: 10rem
-}
-
-.abtproject2 {
-    margin: 2rem 0px 10px 9.25rem;
-    color: #92EB15;
-}
-
-
-.github2 {
-    color: #92EB15;
-    margin-top: 2rem;
-    font-weight: bolder;
-}
-
-
